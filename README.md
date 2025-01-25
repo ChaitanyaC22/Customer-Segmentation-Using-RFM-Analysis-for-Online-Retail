@@ -108,6 +108,9 @@ The RFM segments provide clear insights into customer behavior, helping to infor
 - **Output_Files folder**: Stores all output files generated from the analysis.
 - **RFM Analysis folder**: Contains the final RFM segmentation analysis results and reports.
 
+For more details on the analysis, please refer to the final RFM analysis report:
+**[RFM Analysis Detailed Report](./RFM%20Analysis/RFM_Segmentation_Analysis_UKRetailOnline.xlsx?raw=true)**
+
 ### Conclusion
 
 RFM segmentation helps identify distinct customer groups based on their purchasing behaviors, enabling more targeted marketing campaigns. By understanding customer engagement and tailoring strategies for retention, growth, and re-engagement, businesses can maximize the value of each customer. Future steps may include predictive modeling and more refined segmentation for further optimization of marketing efforts.
@@ -119,10 +122,6 @@ RFM segmentation helps identify distinct customer groups based on their purchasi
 A special thanks to [Siddharth Birajdar](https://in.linkedin.com/in/siddharth-birajdar), whose work inspired much of this analysis.
 
 This dataset is made available by the **UCI Machine Learning Repository** and was created by **Daqing Chen**, School of Engineering, London South Bank University. You can access the dataset [here](https://archive.ics.uci.edu/dataset/352/online+retail).
-
-For more details on the analysis, please refer to the final RFM analysis report:
-
-**[RFM Analysis Detailed Report](./RFM%20Analysis/RFM_Segmentation_Analysis_UKRetailOnline.xlsx?raw=true)**
 
 ---
 
