@@ -11,9 +11,12 @@ This project uses **RFM (Recency, Frequency, and Monetary)** segmentation to ana
 
 The analysis focuses on transactions from customers in the **United Kingdom** for a UK-based online retail store, with transaction data spanning from **01/12/2010** to **09/12/2011**. The segmentation is based on **positive offer price transactions** for **Recency** and **Frequency**, and **all transactions, including returns**, are used to calculate **Monetary Value**.
 
+---
+
 ### Dataset Overview
 
 The dataset used in this analysis contains transactional data from an online retailer in the UK. Each record represents a unique transaction between the company and its customers.
+
 
 #### Key Variables:
 
@@ -30,6 +33,7 @@ The dataset used in this analysis contains transactional data from an online ret
 
 The data includes a variety of customers, including wholesalers, and spans about a year.
 
+
 ### Data Preprocessing
 
 To prepare the data for RFM analysis, several preprocessing steps were carried out:
@@ -41,6 +45,7 @@ To prepare the data for RFM analysis, several preprocessing steps were carried o
    - **Frequency**: The number of transactions made by the customer (based on positive offer price transactions).
    - **Monetary**: The total spending per customer (including returns).
 
+
 ### RFM Analysis
 
 RFM segmentation categorizes customers based on three key metrics:
@@ -50,6 +55,7 @@ RFM segmentation categorizes customers based on three key metrics:
 - **Monetary (M)**: Measures how much a customer spends (including returns).
 
 The segments are created using thresholds derived from percentiles for each of the three metrics.
+
 
 ### Segmentation and Profiling
 
@@ -76,6 +82,7 @@ Based on the RFM analysis, customers are segmented into the following categories
 - **Loyal**: Customers who make frequent purchases but have lower spend.  
   **Recommendation**: Encourage higher spending through loyalty programs, personalized offers, and incentives.
 
+
 ### Customer Insights and Recommendations
 
 The RFM segments provide clear insights into customer behavior, helping to inform more targeted marketing strategies:
@@ -101,6 +108,13 @@ The RFM segments provide clear insights into customer behavior, helping to infor
 - **Loyal (4.15%)**: These customers are regular but spend less than other groups.  
   **Recommendation**: Encourage these customers to increase their spend through loyalty programs or personalized incentives.
 
+
+### Conclusion
+
+RFM segmentation helps identify distinct customer groups based on their purchasing behaviors, enabling more targeted marketing campaigns. By understanding customer engagement and tailoring strategies for retention, growth, and re-engagement, businesses can maximize the value of each customer. Future steps may include predictive modeling and more refined segmentation for further optimization of marketing efforts.
+
+---
+
 ### Project Files and Structure
 
 - **[Customer Segmentation Using RFM Analysis for Online Retail.ipynb](https://github.com/ChaitanyaC22/Customer-Segmentation-Using-RFM-Analysis-for-Online-Retail/blob/main/Customer%20Segmentation%20Using%20RFM%20Analysis%20for%20Online%20Retail.ipynb)**: Contains the complete code for performing the RFM analysis.
@@ -111,10 +125,6 @@ The RFM segments provide clear insights into customer behavior, helping to infor
 For more details on the analysis, please refer to the final RFM analysis report:
 **[RFM Analysis Detailed Report](./RFM%20Analysis/RFM_Segmentation_Analysis_UKRetailOnline.xlsx?raw=true)**
 
-### Conclusion
-
-RFM segmentation helps identify distinct customer groups based on their purchasing behaviors, enabling more targeted marketing campaigns. By understanding customer engagement and tailoring strategies for retention, growth, and re-engagement, businesses can maximize the value of each customer. Future steps may include predictive modeling and more refined segmentation for further optimization of marketing efforts.
-
 ---
 
 ### Acknowledgements
@@ -123,8 +133,8 @@ A special thanks to [Siddharth Birajdar](https://in.linkedin.com/in/siddharth-bi
 
 This dataset is made available by the **UCI Machine Learning Repository** and was created by **Daqing Chen**, School of Engineering, London South Bank University. You can access the dataset [here](https://archive.ics.uci.edu/dataset/352/online+retail).
 
----
 
+<br>
 Thank you for taking the time to visit this repository. 🙏
 
 ---
