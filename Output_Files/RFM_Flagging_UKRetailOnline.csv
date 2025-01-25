@@ -1,0 +1,28 @@
+RFM_Segments,Profiling,Count,Percentage
+L-M-H,Super Loyal Churned,273,6.99
+L-L-H,Super Loyal Churned,208,5.33
+L-H-H,Super Loyal Churned,618,15.83
+M-M-H,Super Loyal,115,2.95
+M-H-H,Super Loyal,757,19.39
+H-M-H,Super Loyal,24,0.61
+H-H-H,Super Loyal,337,8.63
+L-M-M,Potentially Inactive,188,4.82
+L-L-M,Potentially Inactive,624,15.98
+L-H-M,Potentially Inactive,65,1.66
+M-L-M,Potential,117,3.0
+M-L-L,Potential,49,1.26
+M-L-H,Potential,27,0.69
+H-L-M,New Acquisition,14,0.36
+H-L-L,New Acquisition,6,0.15
+H-L-H,New Acquisition,5,0.13
+M-M-M,Loyal,88,2.25
+M-M-L,Loyal,11,0.28
+M-H-M,Loyal,27,0.69
+M-H-L,Loyal,1,0.03
+H-M-M,Loyal,23,0.59
+H-M-L,Loyal,1,0.03
+H-H-M,Loyal,11,0.28
+H-H-L,Loyal,0,0.0
+L-M-L,Inactive,20,0.51
+L-L-L,Inactive,287,7.35
+L-H-L,Inactive,8,0.2
