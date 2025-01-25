@@ -103,7 +103,7 @@ The RFM segments provide clear insights into customer behavior, helping to infor
 
 ### Project Files and Structure
 
-- **Customer Segmentation Using RFM Analysis for Online Retail.ipynb**: Contains the complete code for performing the RFM analysis.
+- **[Customer Segmentation Using RFM Analysis for Online Retail.ipynb](https://github.com/ChaitanyaC22/Customer-Segmentation-Using-RFM-Analysis-for-Online-Retail/blob/main/Customer%20Segmentation%20Using%20RFM%20Analysis%20for%20Online%20Retail.ipynb)**: Contains the complete code for performing the RFM analysis.
 - **Dataset folder**: Contains the Online Retail dataset used for analysis.
 - **Output_Files folder**: Stores all output files generated from the analysis.
 - **RFM Analysis folder**: Contains the final RFM segmentation analysis results and reports.
