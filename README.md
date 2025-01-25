@@ -1,6 +1,6 @@
 # Project: RFM Segmentation Analysis - UK Online Retail Dataset
 
-![RFM Segmentation Image](./Temp_Photos/RFM_Image.PNG)
+![RFM Segmentation Image](./Temp_Photos/RFM_Image.png)
 
 ## Introduction
 
