@@ -1,18 +1,21 @@
-# Project: Customer Segmentation using RFM Analysis for a UK-based Online Retail Store
+## Project: Customer Segmentation using RFM Analysis for a UK-based Online Retail Store
+---
 
 ![RFM Segmentation Image](./Temp_Photos/RFM_Image.png)
 
-## Introduction
+---
+
+### Introduction
 
 This project uses **RFM (Recency, Frequency, and Monetary)** segmentation to analyze customer behavior and provide insights for targeted marketing campaigns. By classifying customers based on their purchasing patterns, strategies can be tailored to improve customer retention, drive growth, and maximize the lifetime value of each customer.
 
 The analysis focuses on transactions from customers in the **United Kingdom** for a UK-based online retail store, with transaction data spanning from **01/12/2010** to **09/12/2011**. The segmentation is based on **positive offer price transactions** for **Recency** and **Frequency**, and **all transactions, including returns**, are used to calculate **Monetary Value**.
 
-## Dataset Overview
+### Dataset Overview
 
 The dataset used in this analysis contains transactional data from an online retailer in the UK. Each record represents a unique transaction between the company and its customers.
 
-### Key Variables:
+#### Key Variables:
 
 | Variable Name  | Description                                          | Units       |
 |----------------|------------------------------------------------------|-------------|
@@ -27,7 +30,7 @@ The dataset used in this analysis contains transactional data from an online ret
 
 The data includes a variety of customers, including wholesalers, and spans about a year.
 
-## Data Preprocessing
+### Data Preprocessing
 
 To prepare the data for RFM analysis, several preprocessing steps were carried out:
 
@@ -38,7 +41,7 @@ To prepare the data for RFM analysis, several preprocessing steps were carried o
    - **Frequency**: The number of transactions made by the customer (based on positive offer price transactions).
    - **Monetary**: The total spending per customer (including returns).
 
-## RFM Analysis
+### RFM Analysis
 
 RFM segmentation categorizes customers based on three key metrics:
 
@@ -48,7 +51,7 @@ RFM segmentation categorizes customers based on three key metrics:
 
 The segments are created using thresholds derived from percentiles for each of the three metrics.
 
-## Segmentation and Profiling
+### Segmentation and Profiling
 
 Based on the RFM analysis, customers are segmented into the following categories, each with its own marketing strategy:
 
@@ -73,7 +76,7 @@ Based on the RFM analysis, customers are segmented into the following categories
 - **Loyal**: Customers who make frequent purchases but have lower spend.  
   **Recommendation**: Encourage higher spending through loyalty programs, personalized offers, and incentives.
 
-## Customer Insights and Recommendations
+### Customer Insights and Recommendations
 
 The RFM segments provide clear insights into customer behavior, helping to inform more targeted marketing strategies:
 
@@ -98,18 +101,20 @@ The RFM segments provide clear insights into customer behavior, helping to infor
 - **Loyal (4.15%)**: These customers are regular but spend less than other groups.  
   **Recommendation**: Encourage these customers to increase their spend through loyalty programs or personalized incentives.
 
-## Project Files and Structure
+### Project Files and Structure
 
 - **Customer Segmentation Using RFM Analysis for Online Retail.ipynb**: Contains the complete code for performing the RFM analysis.
 - **Dataset folder**: Contains the Online Retail dataset used for analysis.
 - **Output_Files folder**: Stores all output files generated from the analysis.
 - **RFM Analysis folder**: Contains the final RFM segmentation analysis results and reports.
 
-## Conclusion
+### Conclusion
 
 RFM segmentation helps identify distinct customer groups based on their purchasing behaviors, enabling more targeted marketing campaigns. By understanding customer engagement and tailoring strategies for retention, growth, and re-engagement, businesses can maximize the value of each customer. Future steps may include predictive modeling and more refined segmentation for further optimization of marketing efforts.
 
-## Acknowledgements
+---
+
+### Acknowledgements
 
 A special thanks to [Siddharth Birajdar](https://in.linkedin.com/in/siddharth-birajdar), whose work inspired much of this analysis.
 
@@ -117,4 +122,10 @@ This dataset is made available by the **UCI Machine Learning Repository** and wa
 
 For more details on the analysis, please refer to the final RFM analysis report:
 
-- **[RFM Analysis Detailed Report](./RFM_Analysis/RFM_Segmentation_Analysis_UKRetailOnline.xlsx)**
+**[RFM Analysis Detailed Report](./RFM%20Analysis/RFM_Segmentation_Analysis_UKRetailOnline.xlsx?raw=true)**
+
+---
+
+Thank you for taking the time to visit this repository. 🙏
+
+---
