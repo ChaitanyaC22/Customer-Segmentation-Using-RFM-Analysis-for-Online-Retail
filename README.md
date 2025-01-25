@@ -31,7 +31,7 @@ The data includes a variety of customers, including wholesalers, and spans about
 
 To prepare the data for RFM analysis, several preprocessing steps were carried out:
 
-1. **Handling Missing Values**: Missing or erroneous values (like canceled transactions) were filtered out.
+1. **Handling Missing Values**: Missing or erroneous values (like canceled transactions) were conditionally filtered out.
 2. **Date Parsing**: InvoiceDate was converted to datetime format for recency calculations.
 3. **Feature Engineering**: RFM metrics were calculated from the transactional data:
    - **Recency**: The time since the customer's last transaction (based on positive offer price transactions).
