@@ -1,0 +1,2 @@
+# Customer-Segmentation-Using-RFM-Analysis-for-Online-Retail
+This project uses **RFM (Recency, Frequency, and Monetary)** segmentation to analyze customer behavior and provide insights for targeted marketing campaigns. By classifying customers based on their purchasing patterns, strategies can be tailored to improve customer retention, drive growth, and maximize the lifetime value of each customer.
