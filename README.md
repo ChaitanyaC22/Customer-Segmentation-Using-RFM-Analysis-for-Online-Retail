@@ -56,57 +56,97 @@ RFM segmentation categorizes customers based on three key metrics:
 
 The segments are created using thresholds derived from percentiles for each of the three metrics.
 
+### Segmentation and Profiling  
 
-### Segmentation and Profiling
+Based on the RFM analysis, customers are segmented into the following categories:  
 
-Based on the RFM analysis, customers are segmented into the following categories, each with its own marketing strategy:
-
-- **Super Loyal Churned**: Customers who were highly engaged but have stopped purchasing.  
-  **Recommendation**: Focus on personalized win-back campaigns to re-engage these valuable customers.
-
-- **Super Loyal**: High-value and frequent customers.  
-  **Recommendation**: Maintain loyalty through exclusive offers, rewards, and VIP treatment to retain business.
-
-- **Potentially Inactive**: Customers who haven't made recent purchases but were frequent buyers in the past.  
-  **Recommendation**: Engage with targeted re-engagement campaigns to prevent churn.
-
-- **Potential**: Recently engaged customers with high frequency but moderate spending.  
-  **Recommendation**: Offer complementary or upsell products to increase total spend.
-
+- **Super Loyal Churned**: Customers who were highly engaged and valuable but have stopped purchasing.  
+- **Super Loyal**: High-value customers who frequently purchase and are highly engaged.  
+- **Potentially Inactive**: Customers who were frequent buyers in the past but haven't made recent purchases.  
+- **Potential**: Recently engaged customers with high purchase frequency but moderate spending.  
 - **New Acquisition**: Recently acquired customers with limited transactions.  
-  **Recommendation**: Focus on onboarding campaigns to build long-term relationships and encourage repeat purchases.
+- **Inactive**: Customers who show minimal engagement or have stopped purchasing altogether.  
+- **Loyal**: Customers who make frequent purchases but have lower spending compared to other groups.  
 
-- **Inactive**: Customers who have minimal engagement or stopped purchasing.  
-  **Recommendation**: Reactivate these customers with special discounts or promotions to draw them back.
+### Mapping Conditions to Customer Segments  
 
-- **Loyal**: Customers who make frequent purchases but have lower spend.  
-  **Recommendation**: Encourage higher spending through loyalty programs, personalized offers, and incentives.
+The following logic maps RFM (Recency, Frequency, Monetary) thresholds to specific customer segments:  
 
+#### RFM Threshold Categories  
+- **H**: High  
+- **M**: Medium  
+- **L**: Low  
 
-### Customer Insights and Recommendations
+#### Mapping Logic  
 
-The RFM segments provide clear insights into customer behavior, helping to inform more targeted marketing strategies:
+1. **Super Loyal Churned**  
+   - **Conditions**: Low Recency, High/Medium/Low Frequency, High Monetary  
+     (L-H-H, L-M-H, L-L-H)  
+   - Customers who spent significantly but recently stopped engaging.  
 
-- **Super Loyal Churned (28.15%)**: These customers spent significantly but recently stopped engaging.  
-  **Recommendation**: Implement personalized win-back strategies, such as tailored discounts or exclusive offers, to reignite their interest.
+2. **Super Loyal**  
+   - **Conditions**: High/Medium Recency, High Frequency, High Monetary  
+     (H-H-H, H-M-H, M-H-H, M-M-H)  
+   - Highly engaged, consistent, and valuable customers.  
 
-- **Super Loyal (31.58%)**: These customers are highly engaged, loyal, and valuable.  
-  **Recommendation**: Continue to nurture this segment with loyalty rewards, VIP perks, and early access to promotions.
+3. **Potentially Inactive**  
+   - **Conditions**: Low Recency, Low/Medium Frequency, Medium Monetary  
+     (L-H-M, L-L-M, L-M-M)  
+   - Customers at risk of becoming inactive; require re-engagement.  
 
-- **Potentially Inactive (22.46%)**: These customers are at risk of becoming inactive.  
-  **Recommendation**: Re-engage through targeted campaigns offering discounts or special promotions tailored to their preferences.
+4. **Potential**  
+   - **Conditions**: Medium Recency, Low Frequency, High/Medium/Low Monetary  
+     (M-L-H, M-L-L, M-L-M)  
+   - Recently engaged but with lower frequency; potential to increase value.  
 
-- **Potential (4.94%)**: These are recent, active customers with potential for upselling.  
-  **Recommendation**: Introduce cross-selling or upselling offers based on previous purchase history.
+5. **New Acquisition**  
+   - **Conditions**: High Recency, Low Frequency, High/Medium/Low Monetary  
+     (H-L-H, H-L-L, H-L-M)  
+   - Recently acquired customers; focus on onboarding.  
 
-- **New Acquisition (0.64%)**: These customers have made only a few purchases since acquisition.  
-  **Recommendation**: Focus on onboarding them effectively with incentives to boost early retention and establish brand loyalty.
+6. **Loyal**  
+   - **Conditions**: High/Medium Recency, Medium Frequency, High/Medium/Low Monetary  
+     (H-H-L, H-H-M, H-M-L, H-M-M, M-H-L, M-H-M, M-M-L, M-M-M)  
+   - Consistently engaged but with room for growth.  
 
-- **Inactive (8.07%)**: Customers who have little to no engagement.  
-  **Recommendation**: Run reactivation campaigns offering deep discounts or special promotions to win them back.
+7. **Inactive**  
+   - **Conditions**: Low Recency, Low/Medium Frequency, Low Monetary  
+     (L-H-L, L-L-L, L-M-L)  
+   - Customers with minimal engagement; require reactivation efforts.  
 
-- **Loyal (4.15%)**: These customers are regular but spend less than other groups.  
-  **Recommendation**: Encourage these customers to increase their spend through loyalty programs or personalized incentives.
+### Customer Insights and Recommendations  
+
+The RFM analysis reveals the following distribution of customer segments and corresponding strategies:  
+
+- **Super Loyal Churned (28.15%)**:  
+   These customers spent significantly in the past but have recently stopped engaging.  
+   **Recommendation**: Focus on win-back strategies, such as tailored discounts or exclusive offers, to re-engage them.  
+
+- **Super Loyal (31.58%)**:  
+   These are highly valuable, engaged, and frequent buyers.  
+   **Recommendation**: Maintain loyalty through VIP perks, early access to promotions, and loyalty rewards.  
+
+- **Potentially Inactive (22.46%)**:  
+   Customers at risk of becoming inactive after previously being frequent buyers.  
+   **Recommendation**: Prevent churn with re-engagement campaigns offering discounts or personalized promotions based on their preferences.  
+
+- **Potential (4.94%)**:  
+   Recently active customers who make frequent purchases but have moderate spending.  
+   **Recommendation**: Offer cross-selling or upselling opportunities tailored to their purchase history.  
+
+- **New Acquisition (0.64%)**:  
+   Recently acquired customers with minimal transactions.  
+   **Recommendation**: Focus on onboarding campaigns with incentives to build brand loyalty and encourage repeat purchases.  
+
+- **Inactive (8.07%)**:  
+   Customers with little to no engagement or purchasing activity.  
+   **Recommendation**: Run reactivation campaigns using deep discounts or special promotions to win them back.  
+
+- **Loyal (4.15%)**:  
+   Regular buyers who frequently purchase but spend less than other groups.  
+   **Recommendation**: Encourage higher spending through loyalty programs, personalized offers, and incentives.  
+
+This segmentation highlights actionable strategies to enhance customer engagement, retention, and value.
 
 
 ### Conclusion
