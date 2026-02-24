@@ -1,0 +1,28 @@
+RFM_Segments,Profiling,Count,Percentage
+M-M-M,Potential Loyalists,88,2.25
+M-M-H,Potential Loyalists,115,2.95
+H-M-L,New Acquisition,1,0.03
+H-L-M,New Acquisition,14,0.36
+H-L-L,New Acquisition,6,0.15
+M-M-L,Need Attention,11,0.28
+M-L-M,Need Attention,117,3
+M-L-L,Need Attention,49,1.26
+M-L-H,Need Attention,27,0.69
+H-L-H,Need Attention,5,0.13
+M-H-M,Loyal Customers,27,0.69
+M-H-L,Loyal Customers,1,0.03
+H-M-M,Loyal Customers,23,0.59
+H-H-M,Loyal Customers,11,0.28
+H-H-L,Loyal Customers,0,0
+L-L-L,Lost,287,7.35
+L-M-M,Hibernating,188,4.82
+L-L-M,Hibernating,624,15.98
+L-L-H,Hibernating,208,5.33
+M-H-H,Champions,757,19.39
+H-M-H,Champions,24,0.61
+H-H-H,Champions,337,8.63
+L-M-H,At Risk,273,6.99
+L-H-M,At Risk,65,1.66
+L-H-H,At Risk,618,15.83
+L-M-L,About to Sleep,20,0.51
+L-H-L,About to Sleep,8,0.2
